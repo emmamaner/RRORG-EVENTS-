@@ -1,75 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
-    <title>RR ORG EVENTS</title>
-    <style>body {
-            background: #0b0b0b;
-            color: white;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding: 40px;
-        }
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RR ORG EVENTS</title>
 
-        h1 {
-            font-size: 45px;
-            letter-spacing: 5px;
-        }
+<style>
 
-        p {
-            color: #bdbdbd;
-        }
-
-        .evento {
-            margin-top: 40px;
-            padding: 20px;
-            border: 1px solid #8a2be2;
-            border-radius: 15px;
-        }
-    </style>logo.png{
-    width: 100%;
-    border-radius: 15px;
-    margin-bottom: 20px;
-}
-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin-bottom: 40px;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-nav a {
-    color: white;
-    text-decoration: none;
+body{
+    background:#0b0b0b;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
 }
 
-nav h3 {
-    color: #8a2be2;
+header{
+    padding:30px 20px;
 }
+
+header h2{
+    color:#8a2be2;
+    margin-bottom:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-bottom:30px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    transition:.3s;
+}
+
+nav a:hover{
+    color:#8a2be2;
+}
+
+.logo{
+    width:220px;
+    max-width:90%;
+    margin-bottom:20px;
+}
+
+h1{
+    font-size:45px;
+    letter-spacing:6px;
+}
+
+p{
+    color:#bdbdbd;
+    margin-top:10px;
+}
+
+.evento{
+    width:90%;
+    max-width:700px;
+    margin:40px auto;
+    border:2px solid #8a2be2;
+    border-radius:20px;
+    overflow:hidden;
+    background:#111;
+}
+
+.evento img{
+    width:100%;
+    display:block;
+}
+
+.info{
+    padding:25px;
+}
+
+.info h2{
+    margin-bottom:20px;
+}
+
+.info p{
+    margin:10px 0;
+    font-size:18px;
+}
+
+button{
+    margin-top:20px;
+    background:#8a2be2;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:16px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#9d4dff;
+}
+
+footer{
+    margin:40px 0;
+    color:#777;
+}
+
+</style>
+
 </head>
 
 <body>
+
+<header>
+
+<h2>RR ORG EVENTS</h2>
+
 <nav>
-    <h3>RR ORG EVENTS</h3>
-    <a href="#">Inicio</a>
-    <a href="#">Eventos</a>
-    <a href="#">Contacto</a>
+<a href="#">Inicio</a>
+<a href="#">Eventos</a>
+<a href="#">Contacto</a>
 </nav>
+
+<img src="logo.png" class="logo" alt="RR ORG">
 
 <h1>RR ORG</h1>
 
 <p>Organización & Producción de Eventos</p>
 
-<div class="evento">
-<img src="https://picsum.photos/800/400" alt="Neón Fest">
-    <h2>HOUSE PARTY</h2>
-   
+</header>
 
-    <p>📅 27 Junio</p>
-    <p>⏰ 7:00 PM - 12:00 AM</p>
-    <p>📍 Cortazar, Guanajuato</p>
+<section class="evento">
 
-    <button>Comprar boletos</button>
+<img src="evento.jpg" alt="Evento">
+
+<div class="info">
+
+<h2>HOUSE PARTY</h2>
+
+<p>📅 15 Agosto</p>
+
+<p>🕖 7:00 PM - 12:00 AM</p>
+
+<p>📍 Cortazar, Guanajuato</p>
+
+<button>Comprar boletos</button>
+
 </div>
 
+</section>
+
+<footer>
+
+© 2026 RR ORG EVENTS
+
+</footer>
+
 </body>
-</html>
+</html>>
