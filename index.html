@@ -3,6 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>RR ORG EVENTS</title>
 
 <style>
@@ -14,146 +15,134 @@
 }
 
 body{
-    background:#0b0b0b;
+    background:#080808;
     color:white;
     font-family:Arial, Helvetica, sans-serif;
     text-align:center;
 }
 
 header{
-    padding:30px 20px;
+    padding:25px 15px;
 }
 
-header h2{
-    color:#8a2be2;
-    margin-bottom:20px;
+.logo{
+    width:220px;
+    max-width:90%;
+    margin:20px auto;
+}
+
+h1{
+    font-size:40px;
+    letter-spacing:5px;
+    color:white;
+}
+
+.subtitulo{
+    color:#bdbdbd;
+    margin-top:10px;
 }
 
 nav{
-    display:flex;
-    justify-content:center;
-    gap:30px;
-    margin-bottom:30px;
+    margin:25px 0;
 }
 
 nav a{
     color:white;
     text-decoration:none;
-    transition:.3s;
+    margin:0 12px;
 }
 
 nav a:hover{
     color:#8a2be2;
 }
 
-.logo{
-    width:220px;
-    max-width:90%;
-    margin-bottom:20px;
-}
-
-h1{
-    font-size:45px;
-    letter-spacing:6px;
-}
-
-p{
-    color:#bdbdbd;
-    margin-top:10px;
-}
 
 .evento{
+
     width:90%;
-    max-width:700px;
-    margin:40px auto;
+    max-width:600px;
+    margin:30px auto;
+    background:#111;
     border:2px solid #8a2be2;
     border-radius:20px;
-    overflow:hidden;
-    background:#111;
-}
-
-.evento img{
-    width:100%;
-    display:block;
-}
-
-.info{
     padding:25px;
+
 }
 
-.info h2{
-    margin-bottom:20px;
+
+.evento h2{
+    color:#8a2be2;
+    margin-bottom:15px;
 }
 
-.info p{
-    margin:10px 0;
-    font-size:18px;
-}
 
 button{
-    margin-top:20px;
+
     background:#8a2be2;
     color:white;
     border:none;
     padding:15px 35px;
     border-radius:10px;
-    cursor:pointer;
     font-size:16px;
-    transition:.3s;
+    margin-top:20px;
+
 }
 
-button:hover{
-    background:#9d4dff;
-}
 
 footer{
+
     margin:40px 0;
     color:#777;
+
 }
 
 </style>
 
 </head>
 
+
 <body>
+
 
 <header>
 
-<h2>RR ORG EVENTS</h2>
+<img src="IMG_20260709_005103.png" class="logo" alt="RR ORG">
+
+<h1>RR ORG EVENTS</h1>
+
+<p class="subtitulo">
+Organización & Producción de Eventos
+</p>
+
 
 <nav>
+
 <a href="#">Inicio</a>
 <a href="#">Eventos</a>
 <a href="#">Contacto</a>
+
 </nav>
 
-<img src="IMG_20260709_005103.png" class="logo" alt="RR ORG">
-
-<h1>RR ORG</h1>
-
-<p>Organización & Producción de Eventos</p>
 
 </header>
 
+
+
 <section class="evento">
 
-<img src="evento.jpg" alt="Evento">
+<h2>Próximo Evento</h2>
 
-<div class="info">
-
-<h2>HOUSE PARTY</h2>
-
-<p>📅 15 Agosto</p>
-
-<p>🕖 7:00 PM - 12:00 AM</p>
+<p>🎉 Próximamente</p>
 
 <p>📍 Cortazar, Guanajuato</p>
 
-<button>Comprar boletos</button>
-
-</div>
+<button>
+Comprar boletos
+</button>
 
 </section>
+
+
 
 <footer>
 
@@ -161,5 +150,7 @@ footer{
 
 </footer>
 
+
 </body>
-</html>>
+
+</html>
