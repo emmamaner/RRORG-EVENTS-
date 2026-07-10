@@ -275,3 +275,81 @@ h1{
 }
 
 }
+/* ===== ESTILO RR ORG PREMIUM ===== */
+
+body{
+    background:
+    radial-gradient(circle at top, rgba(138,43,226,0.25), transparent 35%),
+    #080808;
+}
+
+
+/* PORTADA */
+
+.hero{
+    min-height:350px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    padding:80px 20px;
+}
+
+
+.hero h2{
+    font-size:38px;
+    letter-spacing:2px;
+    text-shadow:0 0 20px rgba(138,43,226,.8);
+}
+
+
+.hero p{
+    color:#ccc;
+    max-width:600px;
+    margin-top:20px;
+    font-size:18px;
+}
+
+
+/* TARJETAS MEJORADAS */
+
+.evento{
+    backdrop-filter:blur(10px);
+    background:
+    linear-gradient(145deg,#151515,#090909);
+}
+
+
+.evento h3{
+    font-size:28px;
+    letter-spacing:2px;
+    text-shadow:0 0 15px rgba(138,43,226,.8);
+}
+
+
+/* IMAGENES */
+
+.flyer{
+    box-shadow:0 0 25px rgba(138,43,226,.4);
+}
+
+
+/* BOTONES PREMIUM */
+
+.btn{
+    box-shadow:
+    0 0 15px rgba(138,43,226,.8),
+    inset 0 0 10px rgba(255,255,255,.2);
+}
+
+
+/* TITULOS DE SECCION */
+
+.eventos > h2,
+.gallery h2,
+.contacto h2{
+    font-size:32px;
+    margin-bottom:30px;
+    color:white;
+    text-shadow:0 0 15px rgba(138,43,226,.7);
+}
