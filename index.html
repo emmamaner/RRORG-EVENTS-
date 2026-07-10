@@ -154,6 +154,34 @@ footer{
     color:#8a2be2;
 
 }
+.gallery {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.gallery h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery-grid img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.gallery-grid img:hover {
+  transform: scale(1.05);
+}
 </style>
 
 </head>
@@ -247,7 +275,7 @@ Más información
 
 <p>📍 Cortazar, Guanajuato</p>
 
-<button>
+<button onclick="location.href='#galeria'">
 Ver galería
 </button>
 
@@ -290,6 +318,20 @@ Ver galería
 </div>
 </footer>
 
+<section id="galeria" class="gallery">
+
+  <h2>Galería - Neón Fest</h2>
+
+  <div class="gallery-grid">
+    <img src="img/neon1.jpg" alt="Neón Fest">
+    <img src="img/neon2.jpg" alt="Neón Fest">
+    <img src="img/neon3.jpg" alt="Neón Fest">
+    <img src="img/neon4.jpg" alt="Neón Fest">
+    <img src="img/neon5.jpg" alt="Neón Fest">
+    <img src="img/neon6.jpg" alt="Neón Fest">
+  </div>
+
+</section>
 
 </body>
 
